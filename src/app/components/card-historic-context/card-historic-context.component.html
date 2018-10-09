@@ -1,0 +1,50 @@
+<div class="mat-app-background basic-container">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title class="name-tittle">René Descartes</mat-card-title>
+            <mat-card-subtitle class="name-birthday"> 31 de marzo de 1596 - 11 de febrero de 1650</mat-card-subtitle>
+
+            <mat-card-subtitle class="name-historical-context">Racionalismo</mat-card-subtitle>
+            <mat-card-subtitle class="name-century">Siglo XVI - Siglo XVII</mat-card-subtitle>
+            <div mat-card-avatar class="example-header-image"></div>
+        </mat-card-header>
+        <br><br>
+        <mat-card-content>
+            <ng-container *ngIf="(asyncTabs | async) === null">
+                Cargando Contenido ...
+            </ng-container>
+
+            <mat-tab-group class="info-general">
+                <mat-tab *ngFor="let tab of asyncTabs | async">
+                    <ng-template mat-tab-label>{{tab.label}}</ng-template>
+                    <p class="content-tab">
+                        {{tab.content}}
+                    </p>
+                </mat-tab>
+            </mat-tab-group>
+
+        </mat-card-content>
+        <!--img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"-->
+        <mat-card-actions>
+            <div class="footer-action">
+                <p class="text-footer">Compartir</p>
+                <button class="btn-fbk"><mat-icon svgIcon="facebook"></mat-icon></button>
+                <button class="btn-twt"><mat-icon svgIcon="twitter"></mat-icon></button>
+                <button class="btn-igm"><mat-icon svgIcon="instagram"></mat-icon></button>
+                <button class="btn-lkn"><mat-icon svgIcon="linkedin"></mat-icon></button>
+            </div>
+        </mat-card-actions>
+        <mat-card-footer>
+            <div class="footer">
+                <p class="text-footer">Filosofos Relacionados</p>
+                <span *ngFor="let accion of nameButton"> <button mat-stroked-button style="background: maroon; color: white;">{{ accion }}</button> </span>
+            </div>
+            <div class="footer">
+                <p class="text-footer">Corrientes Relacionadas</p>
+                <span *ngFor="let accion of nameButton"> <button mat-stroked-button style="background: maroon; color: white;">{{ accion }}</button> </span>
+            </div>
+        </mat-card-footer>
+
+    </mat-card>
+
+</div>

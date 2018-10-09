@@ -1,0 +1,183 @@
+.example-card {
+    max-width: 850px;
+}
+
+.example-header-image {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg');
+    background-size: cover;
+    margin-left: 25%;
+}
+
+.basic-container {
+    padding: 15px;
+    max-width: 850px;
+    max-height: 1500px;
+    background: maroon;
+}
+
+.mat-card-avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.example-action-button {
+    margin-bottom: 8px;
+}
+
+.content-tab {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.name-tittle {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.name-country {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.name-historical-context {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.name-birthday {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.name-century {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.footer-action {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.footer {
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.text-footer {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Style buttons */
+
+.btn-fbk {
+    background-color: royalblue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+.btn-twt {
+    background-color: deepskyblue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+.btn-igm {
+    background-color: firebrick;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+.btn-lkn {
+    background-color: darkturquoise;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+
+/* Darker background on mouse-over */
+
+.btn-lkn :hover {
+    background-color: blue;
+}
+
+.btn-twt :hover {
+    background-color: blue;
+}
+
+.btn-fbk :hover {
+    background-color: blue;
+}
+
+.btn-igm :hover {
+    background-color: blue;
+}
+
+.info-general {
+    height: 300px;
+}
+
+
+/* Para el mat-tab */
+
+::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+    color: maroon;
+}
+
+::ng-deep .mat-ink-bar {
+    background-color: maroon !important;
+}

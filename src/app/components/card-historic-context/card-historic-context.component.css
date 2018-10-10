@@ -1,16 +1,16 @@
 .example-card {
-    max-width: 850px;
+    max-width: 780px;
 }
 
 .example-header-image {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg');
+    background-image: url('https://2.bp.blogspot.com/-1H_lp-MgxPM/WhXxSRilsDI/AAAAAAAAAJM/A6L7gweyDdUGzOfs_soQLhGvikOufl0JgCEwYBhgL/s1600/RACIONALISMO.jpg');
     background-size: cover;
     margin-left: 25%;
 }
 
 .basic-container {
     padding: 15px;
-    max-width: 850px;
+    max-width: 780px;
     max-height: 1500px;
     background: maroon;
 }
@@ -46,7 +46,7 @@
     width: 300px;
 }
 
-.name-historical-context {
+.name-philosofer {
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20%;

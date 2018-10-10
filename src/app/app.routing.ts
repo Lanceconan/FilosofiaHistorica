@@ -5,6 +5,7 @@ import { ViewFilosopherComponent } from './components/view-filosopher/view-filos
 import { ViewHistoricalContextComponent } from './components/view-historical-context/view-historical-context.component';
 import { AppComponent } from './app.component';
 import { CardFilosopherComponent } from './components/card-filosopher/card-filosopher.component';
+import { CardHistoricContextComponent } from './components/card-historic-context/card-historic-context.component';
 
 
 //Se importan componentes
@@ -15,7 +16,7 @@ const appRotes: Routes = [
     {path : '', component : AppComponent},
     {path : 'filosofos', component : ViewFilosopherComponent},
     {path : 'contexto-historico', component : ViewHistoricalContextComponent}, 
-    {path : 'test', component : CardFilosopherComponent}, 
+    {path : 'test', component : CardHistoricContextComponent}, 
 ];
 
 //utilizar configuración de rutas

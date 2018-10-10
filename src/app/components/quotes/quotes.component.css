@@ -1,0 +1,22 @@
+.container-quote {
+    margin: 0 auto;
+    border: 1px solid maroon;
+    border-left: 5px solid maroon;
+    border-right: 5px solid maroon;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+
+.quote-quote {
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.quote-author {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 12px;
+}

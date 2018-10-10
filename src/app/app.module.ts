@@ -10,6 +10,7 @@ import { ViewHistoricalContextComponent } from './components/view-historical-con
 import { MaterialModule } from './app.material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { QuotesComponent } from './components/quotes/quotes.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     CardFilosopherComponent,
     CardHistoricContextComponent,
     ViewFilosopherComponent,
-    ViewHistoricalContextComponent
+    ViewHistoricalContextComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
